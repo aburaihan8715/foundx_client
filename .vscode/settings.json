@@ -1,0 +1,10 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "clsx",
+    "listbox",
+    "messageformat",
+    "nextui",
+    "tailwindcss"
+  ]
+}
