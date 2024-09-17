@@ -2,9 +2,12 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
     "clsx",
+    "hookform",
     "listbox",
     "messageformat",
     "nextui",
-    "tailwindcss"
+    "sonner",
+    "tailwindcss",
+    "tanstack"
   ]
 }

@@ -14,8 +14,8 @@ export default async function RecentPosts() {
         </p>
       </div>
       <div className="grid justify-center gap-10 my-8 sm:grid-cols-1 md:grid-cols-3">
-        {[...Array(9)].map(() => (
-          <CardSkeleton />
+        {[...Array(9)].map((_, index) => (
+          <CardSkeleton key={index} />
         ))}
       </div>
       <div className="flex justify-center">
