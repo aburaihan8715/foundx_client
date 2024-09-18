@@ -12,12 +12,6 @@ import { FieldValues, SubmitHandler } from "react-hook-form";
 export default function RegisterPage() {
   const { mutate: handleUserRegistration, isPending } = useUserRegistration();
 
-  //   useEffect(() => {
-  //     if (isPending) {
-  //       // Handle Loading state
-  //     }
-  //   }, [isPending]);
-
   const onSubmit: SubmitHandler<FieldValues> = async (data) => {
     const userData = {
       ...data,
@@ -30,9 +24,9 @@ export default function RegisterPage() {
     handleUserRegistration(userData);
   };
 
-  // if (isPending) {
-  //   //  handle loading state
-  // }
+  if (isPending) {
+    //  handle loading state
+  }
 
   return (
     <div className="flex h-[calc(100vh-100px)] flex-col items-center justify-center">

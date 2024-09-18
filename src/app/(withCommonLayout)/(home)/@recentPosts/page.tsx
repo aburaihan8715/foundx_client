@@ -16,7 +16,6 @@ export default async function RecentPosts() {
         </p>
       </div>
       <div className="grid justify-center gap-10 my-8 sm:grid-cols-1 md:grid-cols-4">
-        <h2>Recent Posts</h2>
         {posts.map((post: IPost) => (
           <Card key={post._id} post={post} />
         ))}
