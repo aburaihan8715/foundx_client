@@ -1,14 +1,48 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#fff",
+      "backgroundColor": "#bf0603",
+      "isWholeLine": false,
+    },
+    {
+      "text": "FIXME:",
+      "color": "#fff",
+      "backgroundColor": "#ff006e",
+      "isWholeLine": false,
+    },
+    {
+      "text": "TODO:",
+      "color": "#fff",
+      "backgroundColor": "#9d4edd",
+      "isWholeLine": false,
+    },
+    {
+      "text": "DOUBT:",
+      "color": "#fff",
+      "backgroundColor": "#3772ff",
+      "isWholeLine": false,
+    },
+  ],
   "cSpell.words": [
     "clsx",
     "Fira",
     "hookform",
+    "lightgallery",
     "listbox",
+    "lucide",
     "messageformat",
     "nextui",
     "sonner",
     "tailwindcss",
     "tanstack"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#837777",
+    "statusBar.foreground": "#edeaf0",
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
 }
